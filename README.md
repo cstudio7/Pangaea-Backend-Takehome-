@@ -1,5 +1,5 @@
 # Pangaea Backend Takehome
-Its been a great priviledge for attempting this challenge and learning better/different ways of creating HTTP Notification System.
+Its been a great priviledge for attempting this challenge and learning better/different ways of creating HTTP Push Notification System.
 
 # My Solution
 Desciption
