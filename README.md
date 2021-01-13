@@ -1,8 +1,8 @@
 # Pangaea Backend Takehome
-Its been a great priviledge for attempting this challenge and learning better/differny ways of creating HTTP Notification System.
+Its been a great priviledge for attempting this challenge and learning better/differrnt ways of creating HTTP Notification System.
 
 # My Solution
-#Desciption
+Desciption
 Being faced with this task,I queried many tools online to find a suitable way to achieve the expected result, firebase was the first on my mind since the flow and topic concept of the challenge and that of firebase are the same. For Some technical reasons i abandoned firebase and used Web-Push, Since it works with url/endpoint which is inline with the test requirement. 
 
 # For Create a subscription Route
