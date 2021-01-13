@@ -1,0 +1,36 @@
+{
+  "name": "pangaea_backend_takehome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "db-migrate": "npx sequelize db:migrate",
+    "db-undo-migration": "npx sequelize db:migrate:undo:all",
+    "db-seed-test": "NODE_ENV=testing npx sequelize-cli db:seed:undo:all && NODE_ENV=testing sequelize db:seed:all",
+    "db-seed-dev": "npx sequelize-cli db:seed:undo:all && npx sequelize db:seed:all"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.12.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "nodemon": "^2.0.7"
+  }
+}
